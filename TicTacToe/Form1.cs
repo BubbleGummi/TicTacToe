@@ -101,8 +101,7 @@ namespace TicTacToe
 
             }
         }
-
-        private void newGameToolStripMenuItem_Click(object sender, EventArgs e) // New Game
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e) // New Game reseting all the buttons
         {
             turn = true; 
             turn_count= 0;
@@ -122,3 +121,4 @@ namespace TicTacToe
         }
     }
 }
+
